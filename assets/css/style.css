@@ -210,3 +210,20 @@ social-icons {
   .sidenav a {font-size: 18px;}
 }
 
+/* Made the sidebar move to the top so it doesn't cover header*/
+@media screen and (max-width: 1200px) {
+  .sidenav a {
+    font-size: 18px;
+    color: black;
+    text-shadow: 2px 2px 8px #000000;}
+  .sidenav { 
+    background-color: transparent;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    top: 0;
+    padding-top: 15px;}
+  }
+
