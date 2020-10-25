@@ -183,9 +183,18 @@ social-icons {
   border-bottom: none;
   }
 .social-icons li img {
-  width:70px;
-  height:70px;
-  margin-right: 20px;
+  width:7rem;
+  height:7rem;
+  margin-right: 4rem;
+  filter: grayscale(100%);
+}
+
+.social-icons li img:hover{
+  transform: scale(1.5);
+  box-shadow: #ffffff;
+  border: thick;
+  color: #ffffff;
+  filter: grayscale(0%);
 }
 
 @media screen and (max-height: 450px) {
