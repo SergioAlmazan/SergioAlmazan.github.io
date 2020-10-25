@@ -30,17 +30,23 @@ h2 {
   text-align: center;
 }
 
-h3, p {
+h3 {
   font-size: 3rem;
   margin-bottom: 2rem;
   font-family: 'Times New Roman', Times, serif;
 }
-/* This covers the entire main page with a gif  */
+p {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+/* This covers the entire main page with a backgroung picture  */
 header {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/20201021_223808.gif");
+    background-image: url("../images/marble.png");
     background-size: cover;
     background-position: center;
 }
@@ -49,6 +55,7 @@ header h1.page-title {
   font-size: 6rem;
   text-align: center;
   flex-wrap: wrap;
+  color: #04070a;
 }
 
 main {
@@ -75,7 +82,7 @@ footer {
   padding: 1.5rem;
   transition: flex-basis 500ms linear;
   margin-bottom: 3rem;
-}
+  }
 
 .code-card {
   display: flex;
@@ -88,6 +95,7 @@ footer {
   outline-offset: -2px;
   transition: all 0.5s ease-in-out;
   margin-bottom: 10rem;
+  background-image: url("../images/marble.png");
 }
 
 .container {
@@ -118,7 +126,7 @@ footer {
 .flex:hover {
   width: 32rem;
   height: 32rem;
-  box-shadow: inset 0px 0px 10px var(--bright), 0 0 15px var(--bright);
+  box-shadow: inset 0px 0px 10px var(--dark), 0 0 15px var(--dark);
   color: #ffffff;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
