@@ -1,0 +1,195 @@
+:root {
+  --dark: #04070a;
+  --blue: #2aefcb;
+  --bright: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: var(--bright);
+  background-color: var(--dark);
+  width: 100vw;
+}
+
+h1 {
+  font-size: 4rem;
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+h3, p {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* This covers the entire main page with a gif  */
+header {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/20201021_223808.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1.page-title {
+  font-size: 6rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+main {
+  width: 96%;
+  margin: 2rem auto;
+}
+
+footer {
+  margin: 1.5rem;
+  text-align: center;
+}
+/* This allow the picture to float left so the text goes to the right rather than under  */
+.float-left {
+  float: left;
+  margin-right: 25px;
+  border-radius: 50%;
+  border-style: inset;
+  height: 30rem;
+}
+
+
+.card-column {
+  flex: 1 0 100%;
+  padding: 1.5rem;
+  transition: flex-basis 500ms linear;
+  margin-bottom: 3rem;
+}
+
+.code-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+  padding: 2rem;
+  color: var(--bright);
+  outline: 2px inset var(--bright);
+  outline-offset: -2px;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 10rem;
+}
+
+.container {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Added this to allow the list to postion content in a row   */
+.flex {
+  background-image: url("../images/Blog_js-checklist.jpg");
+  background-size: cover;
+  width: 29rem;
+  height: 29rem;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
+  text-align: center;
+  position: relative;
+}
+
+.flex:hover {
+  width: 32rem;
+  height: 32rem;
+  box-shadow: inset 0px 0px 10px var(--bright), 0 0 15px var(--bright);
+  color: #ffffff;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.code-card .card-header {
+  position: relative;
+  margin: -4rem 0 1.5rem 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--dark);
+  color: var(--bright);
+  border: 2px groove var(--bright);
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+  box-shadow: inset 0px 0px 10px var(--bright), 0 0 15px var(--bright);
+}
+
+.code-card .code-block {
+  flex-grow: 1;
+}
+.sidenav {
+  height: 50rem; 
+  width: 130px; 
+  position: absolute; 
+  z-index: 1; 
+  top: 20%; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 100px;
+  text-align: center;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color and adds text shadow*/
+.sidenav a:hover {
+  color: #f1f1f1;
+  text-shadow: 2px 2px 8px #ffffff;
+}
+
+/* style for icons with contact info */
+
+social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+}
+
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:70px;
+  height:70px;
+  margin-right: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
