@@ -6,18 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sergio Almazan's Profolio</title>
   <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
-<!--Adding header with sidebar to navigate to different sections of the page-->
+
 <header>
-  <h1 class="page-title">
-    Hi, My Name is Sergio Almazan
-  </h1>
-  <nav class="sidenav">
-    <a href="#About Me">About</a>
-    <a href="#Projects">Projects</a>
-    <a href="#Contacts">Contact</a>
-  </nav>
+  <div class="page-title fade-in">
+    <img src="assets/images/name.png">
+  </div>
+  <ul class="nav justify-content-center fixed-bottom bg-dark">
+    <li class="nav-item">
+      <a class="nav-link active" href="#About Me">About Me</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Projects">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Contacts">Contact Info</a>
+    </li>
+  </ul>
 </header>
 <!--Adding new element for the about me section-->
 <body>
@@ -27,7 +34,7 @@
         <figure class="card code-card">
           <h2 id="About Me" class="card-header">About Me</h2>
           <div class="card-body">
-            <img src="assets/images/sergio_almazan.jpg" alt="A picture of Sergio Almazan" class="float-left">
+            <img src="assets/images/sergio_almazan1.png" alt="A picture of Sergio Almazan" class="float-left">
             <p>
               Sergio Almazan is an information Technology specialist, with experience in administration, customer service, computer installation and technical support. Sergio is currently on his way to be a full stack web developer. He likes to challenge himself and learn new things to better himself.
           </p>
@@ -37,23 +44,54 @@
     </section>
 
 <!--Adding new element for the projects section-->
-    <section class="row justify-center">
+    <section>
       <div class="card-column">
         <figure class="card code-card">
           <h2 id="Projects" class="card-header"> Projects</h2>
-          <ul class="container">
-            <li class="flex"><a href="#"></a>Project 1</li>
-            <li class="flex"><a href="#"></a>Project 2</li>
-            <li class="flex"><a href="#"></a>Project 3</li>
-            <li class="flex"><a href="#"></a>Project 4</li>
-            <li class="flex"><a href="#"></a>Project 5</li>
-            <li class="flex"><a href="#"></a>Project 6</li>
-            <li class="flex"><a href="#"></a>Project 7</li>
-            <li class="flex"><a href="#"></a>Project 8</li>
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://github.com/Joey-Sisk/OnStage">
+                  <img src="./assets/images/project1.PNG" class="d-block" alt="...">
+                </a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>OnStage</h5>
+                  <p>OnStage was created for the given user to easily find any artist and easily preview their current schedule, as well as location. OnStage features an in search text, where the user inputs the name of an artist, which then populates an itemized list and map of current venues booked. OnStage, also features local storage so that the users events are saved to be referenced in the future.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/Blog_js-checklist.jpg" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Project 2</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/Blog_js-checklist.jpg" class="d-block" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Project 3</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </figure>
       </div>
     </section>
+    
 <!--Adding footer with icons that are link to get in contact with me-->
   <footer id="Contacts">
     <h3>Contact Info</h3>
@@ -63,6 +101,8 @@
       <li class="icon"><a href="mailto:sergioalmazan22@gmail.com"><img src='./assets/images/gmail.png'/></a></li>
   </ul>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </body>
 
