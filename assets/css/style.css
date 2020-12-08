@@ -74,9 +74,12 @@ footer {
   width: auto;
 }
 
-/* .card-body img{
-  width: 20px;
-} */
+.card-body img{
+  border-radius: 25px;
+  background: #4d4855;
+  width: auto;
+  min-width: 150px;
+}
 
 
 .card-column {
@@ -132,32 +135,6 @@ footer {
 
 }
 
-
-
-/* Added this to allow the list to postion content in a row   */
-.flex {
-  background-color: #b8c6db;
-  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
-  background-size: cover;
-  width: 29rem;
-  height: 29rem;
-  padding: 20px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-  color: rgb(0, 0, 0);
-  font-size: 4rem;
-  text-align: center;
-  position: relative;
-}
-
-.flex:hover {
-  width: 32rem;
-  height: 32rem;
-  box-shadow: inset 0px 0px 10px var(--dark), 0 0 15px var(--dark);
-  color: #ffffff;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 .code-card .card-header {
   position: relative;
   margin: -4rem 0 1.5rem 0;
@@ -177,9 +154,14 @@ footer {
 .code-card .code-block {
   flex-grow: 1;
 }
+
 .nav-link {
   font-size: 20px;
   color: whitesmoke;
+}
+
+.nav-link:hover{
+  color: rgb(179, 21, 21);
 }
 
 social-icons {
