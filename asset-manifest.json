@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/SergioAlmazan.github.io/static/css/main.c13d4792.chunk.css",
-    "main.js": "/SergioAlmazan.github.io/static/js/main.36074a78.chunk.js",
-    "main.js.map": "/SergioAlmazan.github.io/static/js/main.36074a78.chunk.js.map",
-    "runtime-main.js": "/SergioAlmazan.github.io/static/js/runtime-main.40983454.js",
-    "runtime-main.js.map": "/SergioAlmazan.github.io/static/js/runtime-main.40983454.js.map",
-    "static/css/2.ef9168ec.chunk.css": "/SergioAlmazan.github.io/static/css/2.ef9168ec.chunk.css",
-    "static/js/2.c9ecf70c.chunk.js": "/SergioAlmazan.github.io/static/js/2.c9ecf70c.chunk.js",
-    "static/js/2.c9ecf70c.chunk.js.map": "/SergioAlmazan.github.io/static/js/2.c9ecf70c.chunk.js.map",
-    "index.html": "/SergioAlmazan.github.io/index.html",
-    "static/css/2.ef9168ec.chunk.css.map": "/SergioAlmazan.github.io/static/css/2.ef9168ec.chunk.css.map",
-    "static/css/main.c13d4792.chunk.css.map": "/SergioAlmazan.github.io/static/css/main.c13d4792.chunk.css.map",
-    "static/js/2.c9ecf70c.chunk.js.LICENSE.txt": "/SergioAlmazan.github.io/static/js/2.c9ecf70c.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/SergioAlmazan.github.io/static/media/quiznode.43cdaaee.PNG",
-    "static/media/sergio_almazan1.a0ea6feb.png": "/SergioAlmazan.github.io/static/media/sergio_almazan1.a0ea6feb.png"
+    "main.css": "/static/css/main.64f89318.chunk.css",
+    "main.js": "/static/js/main.2a1a62d2.chunk.js",
+    "main.js.map": "/static/js/main.2a1a62d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9cff7d8a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9cff7d8a.js.map",
+    "static/css/2.ef9168ec.chunk.css": "/static/css/2.ef9168ec.chunk.css",
+    "static/js/2.c9ecf70c.chunk.js": "/static/js/2.c9ecf70c.chunk.js",
+    "static/js/2.c9ecf70c.chunk.js.map": "/static/js/2.c9ecf70c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ef9168ec.chunk.css.map": "/static/css/2.ef9168ec.chunk.css.map",
+    "static/css/main.64f89318.chunk.css.map": "/static/css/main.64f89318.chunk.css.map",
+    "static/js/2.c9ecf70c.chunk.js.LICENSE.txt": "/static/js/2.c9ecf70c.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/quiznode.43cdaaee.PNG",
+    "static/media/sergio_almazan1.a0ea6feb.png": "/static/media/sergio_almazan1.a0ea6feb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.40983454.js",
+    "static/js/runtime-main.9cff7d8a.js",
     "static/css/2.ef9168ec.chunk.css",
     "static/js/2.c9ecf70c.chunk.js",
-    "static/css/main.c13d4792.chunk.css",
-    "static/js/main.36074a78.chunk.js"
+    "static/css/main.64f89318.chunk.css",
+    "static/js/main.2a1a62d2.chunk.js"
   ]
 }
